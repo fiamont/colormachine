@@ -1,13 +1,16 @@
+import ContactForm from "../components/ContactForm";
+
 function ContactView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center gap-3 p-4">
-      <h1 className="text-center">Contact</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-        excepturi, amet unde architecto recusandae repellat aliquam eveniet!
-        Nesciunt quaerat repellendus doloremque commodi eos? Ipsam officiis
-        laudantium nesciunt nam! Temporibus, at?
+      <h2 className="text-center">Contact</h2>
+      <p className="m-0">
+        Do you have any problems with the website or any design questions?
       </p>
+      <p className="m-0">Use the contact form below, thanks!</p>
+      <div className="p-0 p-sm-3 m-0 m-sm-3 align-self-center contact-form-container">
+        <ContactForm />
+      </div>
     </div>
   );
 }
