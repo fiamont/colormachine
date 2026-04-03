@@ -4,6 +4,7 @@ import StartView from "./views/StartView";
 import AboutView from "./views/AboutView";
 import ContactView from "./views/ContactView";
 import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<AboutView />} />
           <Route path="/contact" element={<ContactView />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
