@@ -1,4 +1,5 @@
 import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StartView from "./views/StartView";
 import AboutView from "./views/AboutView";
 import ContactView from "./views/ContactView";
@@ -6,9 +7,13 @@ import ContactView from "./views/ContactView";
 function App() {
   return (
     <>
-      <StartView />
-      <AboutView />
-      <ContactView />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<StartView />} />
+          <Route path="/about" element={<AboutView />} />
+          <Route path="/contact" element={<ContactView />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
