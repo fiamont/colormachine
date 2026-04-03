@@ -1,6 +1,6 @@
-import ToContact from "../components/ToContact";
-import ToPortfolio from "../components/ToPortfolio";
-import StartTeaser from "../components/StartTeaser";
+import ToContact from "../components/about/ToContact";
+import ToPortfolio from "../components/about/ToPortfolio";
+import StartTeaser from "../components/about/StartTeaser";
 import aboutText from "./../texts/about.json";
 
 function AboutView() {

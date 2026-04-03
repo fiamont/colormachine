@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import "./AboutComponents.css";
 
 function ToPortfolio({ text }) {
   return (
