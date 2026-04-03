@@ -1,9 +1,14 @@
 import "./App.css";
+import StartView from "./views/StartView";
+import AboutView from "./views/AboutView";
+import ContactView from "./views/ContactView";
 
 function App() {
   return (
     <>
-      <div>Hej</div>
+      <StartView />
+      <AboutView />
+      <ContactView />
     </>
   );
 }
