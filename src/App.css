@@ -12,3 +12,19 @@
 .navigation-link {
   letter-spacing: 10%;
 }
+
+.contact-form-container {
+  width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+  .contact-form-container {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .contact-form-container {
+    width: 70%;
+  }
+}
