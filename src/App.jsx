@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StartView from "./views/StartView";
 import AboutView from "./views/AboutView";
 import ContactView from "./views/ContactView";
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
+import Navigation from "./components/navigation/Navigation";
+import Footer from "./components/navigation/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
