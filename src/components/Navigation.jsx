@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import colorCogs from "../../public/engineering.png";
+import colorCogs from "./../assets/engineering.png";
 
 function Navigation() {
   return (
