@@ -44,6 +44,11 @@
   color: var(--grey-font);
 }
 
+.teaser-link {
+  text-decoration: none;
+  color: var(--dark-blue);
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
