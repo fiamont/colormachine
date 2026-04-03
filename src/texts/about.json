@@ -4,8 +4,15 @@
   "sections": [
     "Whether you're experiencing creative block, starting a new project, or simply looking for a spark of inspiration, Design Machine is here to help. The platform offers a collection of design-focused generators and tools made to support both hobby designers and professionals in their creative process.",
     "From random color generators and palette creators to font inspiration, descriptive mood words, and contrast checking tools, every feature is designed to make brainstorming easier and more enjoyable.",
-    "The idea behind Design Machine is simple: creativity should feel accessible, playful, and inspiring. Sometimes all it takes is one unexpected color combination, one word, or one typeface to unlock a whole new concept.",
-    "This project was created by Sofia Montgomery, if you'd like to see more of my work, feel free to explore my portfolio"
+    "The idea behind Design Machine is simple: creativity should feel accessible, playful, and inspiring. Sometimes all it takes is one unexpected color combination, one word, or one typeface to unlock a whole new concept."
   ],
-  "link": "https://sofiamontgomeryportfolio.vercel.app/"
+  "link": {
+    "before": "This project was created by Sofia Montgomery, if you'd like to see more of my work, feel free to",
+    "uri": "https://sofiamontgomeryportfolio.vercel.app/",
+    "linktext": "explore my portfolio"
+  },
+  "contact": {
+    "before": "Any questions? Or any troubles with the website?",
+    "linktext": "Kindly use the website's contact form"
+  }
 }

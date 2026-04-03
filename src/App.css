@@ -17,9 +17,30 @@
   width: 100%;
 }
 
+.to-portfolio-container {
+  background-color: var(--lighter-blue);
+  color: white;
+  font-weight: 600;
+  width: 80%;
+}
+
+.to-contact-container {
+  background-color: lavender;
+  font-weight: 600;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--grey-font);
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
+  }
+
+  .to-portfolio-container {
+    width: 60%;
   }
 }
 
