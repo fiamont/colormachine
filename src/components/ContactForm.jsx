@@ -62,7 +62,7 @@ function ContactForm() {
       validated={validated}
       onSubmit={handleSubmit}
       ref={formRef}
-      className="d-flex flex-column w-100"
+      className="d-flex flex-column w-100 form-border rounded p-3"
     >
       <Form.Group className="mb-3" controlId="contactForm.ControlInput1">
         <Form.Label>Name</Form.Label>
