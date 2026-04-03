@@ -17,16 +17,26 @@
   width: 100%;
 }
 
+.form-border {
+  border: 3px var(--lavender) solid;
+}
+
 .to-portfolio-container {
-  background-color: var(--lighter-blue);
-  color: white;
-  font-weight: 600;
-  width: 80%;
+  border: 3px var(--dark-blue) solid;
+  font-weight: 400;
 }
 
 .to-contact-container {
-  background-color: lavender;
-  font-weight: 600;
+  border: 3px var(--lavender) solid;
+  font-weight: 400;
+}
+
+.geting-started-teaser-container {
+  border: 3px var(--lighter-blue) solid;
+  letter-spacing: -2%;
+  font-family: var(--commissioner-font);
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .link {
@@ -37,10 +47,6 @@
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
-  }
-
-  .to-portfolio-container {
-    width: 60%;
   }
 }
 
