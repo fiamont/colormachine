@@ -3,7 +3,7 @@
 }
 
 .form-border {
-  border: 3px var(--lavender) solid;
+  border: 3px var(--turquoise) solid;
 }
 
 @media screen and (min-width: 600px) {

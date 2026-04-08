@@ -5,9 +5,10 @@
   --commissioner-font: "Commissioner", sans-serif;
 
   --grey-font: #3d3d3d;
-  --dark-blue: #16417c;
-  --lighter-blue: #7092be;
+  --turquoise: #62d6ea;
   --lavender: #b3abcf;
+  --orange: #ffa500;
+  --yellow: #ffdd00;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,7 +39,7 @@ h4 {
 h2 {
   font-size: 2.8rem;
   font-weight: 800;
-  color: var(--dark-blue);
+  color: var(--orange);
 }
 
 h1 {
