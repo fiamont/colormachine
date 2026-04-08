@@ -1,10 +1,18 @@
-import { Button } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 
-function ColorGenerator() {
+function ColorGenerator({ show, handleClose }) {
   return (
-    <Button variant="success">
-      <h1>Generate random color</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg">
+      <Modal.Header closeButton>
+        <Modal.Title>Color Generator</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>Generate color here</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 
