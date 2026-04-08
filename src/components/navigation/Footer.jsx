@@ -5,6 +5,9 @@ function Footer() {
   return (
     <div className="d-flex flex-column align-items-center">
       <div className="d-flex flex-row gap-4">
+        <Link to="/" className="navigation-link">
+          <p>Home</p>
+        </Link>
         <Link to="/about" className="navigation-link">
           <p>About</p>
         </Link>

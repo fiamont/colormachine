@@ -43,7 +43,7 @@ function GeneratorSection() {
   return (
     <section className="d-flex flex-column align-items-center pt-0 pb-2 px-4 gap-3">
       <p className="text-center mb-1 mt-0">
-        Begin your journey with choosing a generator!
+        Begin your journey by choosing a generator!
       </p>
       <div className="row gt-0 gx-3 gy-3">
         {/* Loopa igenom alla generators */}
