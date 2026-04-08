@@ -2,6 +2,21 @@
   width: 100%;
 }
 
+.about-background {
+  background-image: url("./../public/steve-johnson-kznh8gbL-LU-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-text-container {
+  background-color: white;
+}
+
+.about-title {
+  color: var(--turquoise);
+}
+
 .form-border {
   border: 3px var(--turquoise) solid;
 }

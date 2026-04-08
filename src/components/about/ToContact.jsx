@@ -4,12 +4,14 @@ import "./AboutComponents.css";
 
 function ToContact({ text }) {
   return (
-    <div className="d-flex flex-column to-contact-container shadow p-4 rounded align-self-start my-2 mx-0 m-sm-4 w-75">
-      <p>{text.contact.before}</p>
-      <Button as={Link} className="link" variant="light" to="/contact">
-        {text.contact.linktext}
-      </Button>
-    </div>
+    <Button
+      as={Link}
+      className="to-contact-container shadow p-4 w-100 rounded"
+      variant="light"
+      to="/contact"
+    >
+      <p className="text-center m-0 p-0">{text.contact.text}</p>
+    </Button>
   );
 }
 
