@@ -8,8 +8,10 @@ This project...
 
 ## Features
 
+- Color generator
 - Palette generator
-- ...
+- Font generator
+- Inspirational word generator
 
 ## Built With
 
