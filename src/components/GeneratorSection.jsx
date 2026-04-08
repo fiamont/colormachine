@@ -6,11 +6,9 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 
 function GeneratorSection() {
-  // State: vilken generator är öppen
   const [activeGenerator, setActiveGenerator] = useState(false);
 
-  /* Lista med alla generators
-  Varje objekt innehåller:
+  /* Objektlista med alla generatorer, varje objekt innehåller:
   - id: unikt namn för generatorn
   - label: text på knappen
   - Component: själva komponenten som ska renderas
@@ -43,19 +41,15 @@ function GeneratorSection() {
   ];
 
   return (
-    <section className="d-flex flex-column align-items-center p-4 gap-3">
-      <p className="text-center">
+    <section className="d-flex flex-column align-items-center pt-0 pb-2 px-4 gap-3">
+      <p className="text-center mb-1 mt-0">
         Begin your journey with choosing a generator!
       </p>
-      <div className="row g-3">
-        {/* -------------------------
-          Loopa igenom alla generators
-          ------------------------- */}
+      <div className="row gt-0 gx-3 gy-3">
+        {/* Loopa igenom alla generators */}
         {generators.map(({ id, label, Component, bgcolor }) => (
           <div key={id} className="col-12 col-md-6">
-            {/* -------------------------
-              Knapp som öppnar rätt generator
-              ------------------------- */}
+            {/* Knapp som öppnar rätt generator */}
             <Button
               variant="light"
               size="lg"
@@ -65,12 +59,10 @@ function GeneratorSection() {
               <h1 className="text-center fs-2">{label}</h1>
             </Button>
 
-            {/* -------------------------
-              Rendera generatorn om den är aktiv
-              ------------------------- */}
+            {/* Rendera generatorn om den är aktiv */}
             {activeGenerator === id && (
-              <Component
-                show={true} // signalerar till generatorn att den ska visas
+              <Component //en Modal
+                show={true} // visar generatorn
                 handleClose={() => setActiveGenerator(null)} // stänger generatorn
               />
             )}
