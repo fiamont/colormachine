@@ -37,6 +37,10 @@
   background-color: var(--turquoise);
 }
 
+.generator-btn-text {
+  color: var(--grey-font);
+}
+
 .color-container {
   width: 100%;
   max-width: 400px;
