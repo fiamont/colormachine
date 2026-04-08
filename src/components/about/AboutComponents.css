@@ -19,6 +19,8 @@
 .link {
   color: var(--grey-font);
   border: 1px grey solid;
+  font-weight: 300;
+  letter-spacing: 4%;
 }
 
 .teaser-link {
