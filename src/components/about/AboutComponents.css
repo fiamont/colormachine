@@ -1,15 +1,15 @@
 .to-portfolio-container {
-  border: 3px var(--dark-blue) solid;
+  border: 3px var(--turquoise) solid;
   font-weight: 400;
 }
 
 .to-contact-container {
-  border: 3px var(--lavender) solid;
+  border: 3px var(--orange) solid;
   font-weight: 400;
 }
 
 .start-teaser-container {
-  border: 3px var(--lighter-blue) solid;
+  border: 5px var(--yellow) solid;
   letter-spacing: -2%;
   font-family: var(--commissioner-font);
   font-size: 1.8rem;
@@ -17,8 +17,10 @@
 }
 
 .link {
-  text-decoration: none;
   color: var(--grey-font);
+  border: 1px grey solid;
+  font-weight: 300;
+  letter-spacing: 4%;
 }
 
 .teaser-link {
