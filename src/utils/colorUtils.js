@@ -33,9 +33,7 @@ export function rgbToHsl(hex) {
   } else {
     const d = max - min;
 
-    s = l > 0.5
-      ? d / (2 - max - min)
-      : d / (max + min);
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
 
     switch (max) {
       case r:
@@ -53,6 +51,10 @@ export function rgbToHsl(hex) {
   }
 
   return `hsl(${Math.round(h * 360)}, ${Math.round(
-    s * 100
+    s * 100,
   )}%, ${Math.round(l * 100)}%)`;
+}
+
+export function copyToClipboard(value) {
+  navigator.clipboard.writeText(value);
 }
