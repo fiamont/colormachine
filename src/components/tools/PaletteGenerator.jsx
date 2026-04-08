@@ -6,7 +6,7 @@ function PaletteGenerator({ show, handleClose }) {
       <Modal.Header closeButton>
         <Modal.Title>Palette Generator</Modal.Title>
       </Modal.Header>
-      <Modal.Body>Generate palette here</Modal.Body>
+      <Modal.Body>Work in progress</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
           Close

@@ -6,7 +6,7 @@ function FontGenerator({ show, handleClose }) {
       <Modal.Header closeButton>
         <Modal.Title>Font Generator</Modal.Title>
       </Modal.Header>
-      <Modal.Body>Generate font here</Modal.Body>
+      <Modal.Body>Work in progress</Modal.Body>
       <Modal.Footer>
         <Button variant="secondary" onClick={handleClose}>
           Close
