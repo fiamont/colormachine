@@ -9,7 +9,7 @@ function AboutView() {
       <h2 className="text-center about-title mb-0 pb-0">{aboutText.title}</h2>
       <div className="d-flex flex-column pt-0 p-4 p-lg-5 mt-0 mb-lg-5 mx-lg-5">
         <div className="d-flex flex-column gap-3">
-          <div className="about-text-container align-self-center shadow rounded p-3 m-0 w-75">
+          <div className="about-text-container align-self-center shadow rounded p-3 m-0 w-100">
             <h4 className="text-center">{aboutText.introduction}</h4>
             <p className="p-0 m-0 w-100 align-self-end text-center">
               {aboutText.sections[0]}
