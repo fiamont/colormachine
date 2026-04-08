@@ -1,4 +1,4 @@
-import { Button } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
 function InspirationGenerator({ show, handleClose }) {
   return (
