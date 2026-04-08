@@ -1,29 +1,32 @@
+.to-portfolio-container,
+.to-contact-container,
+.start-teaser-container {
+  letter-spacing: -3%;
+  font-family: var(--commissioner-font);
+  color: white;
+}
+
+.start-teaser-container p {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.to-portfolio-container p,
+.to-contact-container p {
+  font-weight: 800;
+}
+
 .to-portfolio-container {
-  border: 3px var(--turquoise) solid;
-  font-weight: 400;
+  border: 5px var(--turquoise) solid;
+  background-color: var(--turquoise);
 }
 
 .to-contact-container {
-  border: 3px var(--orange) solid;
-  font-weight: 400;
+  border: 5px var(--orange) solid;
+  background-color: var(--orange);
 }
 
 .start-teaser-container {
   border: 5px var(--yellow) solid;
-  letter-spacing: -2%;
-  font-family: var(--commissioner-font);
-  font-size: 1.8rem;
-  font-weight: 900;
-}
-
-.link {
-  color: var(--grey-font);
-  border: 1px grey solid;
-  font-weight: 300;
-  letter-spacing: 4%;
-}
-
-.teaser-link {
-  text-decoration: none;
-  color: var(--dark-blue);
+  background-color: var(--yellow);
 }
