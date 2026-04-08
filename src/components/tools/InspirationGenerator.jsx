@@ -2,7 +2,7 @@ import { Modal, Button } from "react-bootstrap";
 
 function InspirationGenerator({ show, handleClose }) {
   return (
-    <Modal show={show} onHide={handleClose} size="lg">
+    <Modal show={show} onHide={handleClose} size="lg" centered>
       <Modal.Header closeButton>
         <Modal.Title>Inspirational Word Generator</Modal.Title>
       </Modal.Header>
