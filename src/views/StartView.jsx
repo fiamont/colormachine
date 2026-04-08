@@ -6,7 +6,7 @@ function StartView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <Hero />
-      <section className="p-4">
+      <section className="pt-4 pb-0 px-4">
         <h4>Welcome to Design machine!</h4>
         <p>
           Are you in the process of starting a new design project? Need

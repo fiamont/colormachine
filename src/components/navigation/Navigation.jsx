@@ -4,7 +4,7 @@ import "./Navigation.css";
 
 function Navigation() {
   return (
-    <div className="d-flex flex-row justify-content-start p-4">
+    <div className="d-flex flex-row justify-content-start p-3">
       <Link to="/" className="navigation-brand">
         <div className="d-flex flex-row justify-content-center align-items-center">
           <img src={colorCogs} alt="Color cogs" className="pe-1 color-cogs" />

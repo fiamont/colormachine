@@ -6,6 +6,28 @@
   border: 3px var(--turquoise) solid;
 }
 
+.color-btn {
+  background-color: var(--orange);
+}
+
+.palette-btn {
+  background-color: var(--lavender);
+}
+
+.font-btn {
+  background-color: var(--yellow);
+}
+
+.word-btn {
+  background-color: var(--turquoise);
+}
+
+.color-container {
+  width: 100%;
+  max-width: 400px;
+  height: 150px;
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;

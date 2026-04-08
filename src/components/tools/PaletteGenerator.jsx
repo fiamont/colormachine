@@ -1,10 +1,18 @@
-import { Button } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
-function PaletteGenerator() {
+function PaletteGenerator({ show, handleClose }) {
   return (
-    <Button variant="warning">
-      <h1>Generate random palette</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg" centered>
+      <Modal.Header closeButton>
+        <Modal.Title>Palette Generator</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>Work in progress</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 

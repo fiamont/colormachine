@@ -1,10 +1,55 @@
-import { Button } from "react-bootstrap";
+import { useState } from "react";
+import { Modal, Button } from "react-bootstrap";
+import {
+  generateHexColor,
+  hexToRgb,
+  rgbToHsl,
+  copyToClipboard,
+} from "../../utils/colorUtils";
+import ColorInfo from "./ColorInfo";
 
-function ColorGenerator() {
+function ColorGenerator({ show, handleClose }) {
+  const [color, setColor] = useState("#EED06F");
+
+  function generateRandomColor() {
+    setColor(generateHexColor());
+  }
+
   return (
-    <Button variant="success">
-      <h1>Generate random color</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg" centered>
+      <Modal.Header closeButton>
+        <Modal.Title>Color Generator</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Button variant="secondary" onClick={generateRandomColor}>
+          New color
+        </Button>
+        <div className="d-flex flex-column align-items-center justify-content-center px-3">
+          <div
+            className="rounded color-container m-2"
+            style={{ backgroundColor: color }}
+          ></div>
+          <div className="w-100 px-3 px-md-5 pt-2">
+            <ColorInfo label="Hex" value={color} onCopy={copyToClipboard} />
+            <ColorInfo
+              label="Rgb"
+              value={hexToRgb(color)}
+              onCopy={copyToClipboard}
+            />
+            <ColorInfo
+              label="Hsl"
+              value={rgbToHsl(color)}
+              onCopy={copyToClipboard}
+            />
+          </div>
+        </div>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="dark" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 

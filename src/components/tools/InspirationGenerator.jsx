@@ -1,10 +1,18 @@
-import { Button } from "react-bootstrap";
+import { Modal, Button } from "react-bootstrap";
 
-function InspirationGenerator() {
+function InspirationGenerator({ show, handleClose }) {
   return (
-    <Button variant="danger">
-      <h1>Generate descriptive words</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg" centered>
+      <Modal.Header closeButton>
+        <Modal.Title>Inspirational Word Generator</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>Work in progress</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 
