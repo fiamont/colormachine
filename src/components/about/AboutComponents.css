@@ -17,8 +17,8 @@
 }
 
 .link {
-  text-decoration: none;
   color: var(--grey-font);
+  border: 1px grey solid;
 }
 
 .teaser-link {

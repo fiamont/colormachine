@@ -9,8 +9,8 @@ function ToPortfolio({ text }) {
         href={text.link.uri}
         target="_blank"
         rel="noopener noreferrer"
-        className="w-75 align-self-center link"
-        variant="outline-secondary"
+        className="link"
+        variant="light"
       >
         {text.link.linktext}
       </Button>
