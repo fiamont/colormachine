@@ -1,10 +1,18 @@
 import { Button } from "react-bootstrap";
 
-function FontGenerator() {
+function FontGenerator({ show, handleClose }) {
   return (
-    <Button variant="primary">
-      <h1>Generate random font</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg">
+      <Modal.Header closeButton>
+        <Modal.Title>Font Generator</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>Generate font here</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 

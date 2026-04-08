@@ -17,10 +17,13 @@ function GeneratorSection() {
       <Button variant="success" size="lg" onClick={handleShow}>
         <h1>Generate color</h1>
       </Button>
+      <Button variant="warning" size="lg" onClick={handleShow}>
+        <h1>Generate palette</h1>
+      </Button>
       <ColorGenerator show={activeGenerator} handleClose={handleClose} />
-      <PaletteGenerator />
+      {/* <PaletteGenerator />
       <FontGenerator />
-      <InspirationGenerator />
+      <InspirationGenerator /> */}
     </section>
   );
 }
