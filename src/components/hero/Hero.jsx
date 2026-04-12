@@ -5,7 +5,7 @@ function Hero() {
     <div className="hero-container p-4 d-flex flex-column justify-content-center align-items-end">
       <h1 className="text-end hero-heading">Design machine</h1>
       <h2 className="text-end hero-subheading">
-        Creative tools for instant design inspiration.
+        Tools for faster design decisions.
       </h2>
     </div>
   );
