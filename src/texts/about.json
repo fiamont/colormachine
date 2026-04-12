@@ -6,11 +6,17 @@
     "From random color generators and palette creators to font inspiration, descriptive mood words, and contrast checking tools, every feature is designed to make brainstorming easier and more enjoyable.",
     "The idea behind Design Machine is simple: creativity should feel accessible, playful, and inspiring. Sometimes all it takes is one unexpected color combination, one word, or one typeface to unlock a whole new concept."
   ],
-  "link": {
-    "text": "This project was created by Sofia Montgomery, if you'd like to see more of my work, feel free to explore my portfolio",
-    "uri": "https://sofiamontgomeryportfolio.vercel.app/"
+  "tips": {
+    "text": "Do you need more help? Or want to learn more?",
+    "button": "Here are some tips"
   },
   "contact": {
-    "text": "Any questions? Or any troubles with the website? Kindly use the website's contact form"
+    "text": "Any questions? Or any troubles with the website?",
+    "button": "Kindly use the website's contact form"
+  },
+  "portfolio": {
+    "text": "This project was created by Sofia Montgomery, if you'd like to see more of my work, feel free to",
+    "uri": "https://sofiamontgomeryportfolio.vercel.app/",
+    "button": "Explore the portfolio"
   }
 }

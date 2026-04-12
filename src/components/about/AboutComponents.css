@@ -1,6 +1,7 @@
 .to-portfolio-container,
 .to-contact-container,
-.start-teaser-container {
+.start-teaser-container,
+.to-tips-container {
   letter-spacing: -3%;
   font-family: var(--commissioner-font);
   color: white;
@@ -12,21 +13,19 @@
 }
 
 .to-portfolio-container p,
-.to-contact-container p {
+.to-contact-container p,
+.to-tips-container p {
   font-weight: 800;
 }
 
-.to-portfolio-container {
-  border: 5px var(--turquoise) solid;
+.to-tips-container {
   background-color: var(--turquoise);
 }
 
 .to-contact-container {
-  border: 5px var(--orange) solid;
   background-color: var(--orange);
 }
 
 .start-teaser-container {
-  border: 5px var(--yellow) solid;
   background-color: var(--yellow);
 }

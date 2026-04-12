@@ -10,7 +10,7 @@ function ToContact({ text }) {
       variant="light"
       to="/contact"
     >
-      <p className="text-center m-0 p-0">{text.contact.text}</p>
+      <p className="text-center m-0 p-0">{text.contact.button}</p>
     </Button>
   );
 }
