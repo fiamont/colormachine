@@ -17,16 +17,13 @@
 }
 
 .to-portfolio-container {
-  border: 5px var(--turquoise) solid;
   background-color: var(--turquoise);
 }
 
 .to-contact-container {
-  border: 5px var(--orange) solid;
   background-color: var(--orange);
 }
 
 .start-teaser-container {
-  border: 5px var(--yellow) solid;
   background-color: var(--yellow);
 }
