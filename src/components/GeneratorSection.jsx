@@ -1,4 +1,4 @@
-import ColorGenerator from "./tools/ColorGenerator";
+import RandomColorGenerator from "./tools/RandomColorGenerator";
 import PaletteGenerator from "./tools/PaletteGenerator";
 import FontGenerator from "./tools/FontGenerator";
 import InspirationGenerator from "./tools/InspirationGenerator";
@@ -16,8 +16,8 @@ function GeneratorSection() {
   const generators = [
     {
       id: "color",
-      label: "Generate color",
-      Component: ColorGenerator,
+      label: "Generate random color",
+      Component: RandomColorGenerator,
       bgcolor: "color-btn",
     },
     {

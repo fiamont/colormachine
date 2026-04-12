@@ -8,7 +8,7 @@ import {
 } from "../../utils/colorUtils";
 import ColorInfo from "./ColorInfo";
 
-function ColorGenerator({ show, handleClose }) {
+function RandomColorGenerator({ show, handleClose }) {
   const [color, setColor] = useState("#EED06F");
 
   function generateRandomColor() {
@@ -18,10 +18,10 @@ function ColorGenerator({ show, handleClose }) {
   return (
     <Modal show={show} onHide={handleClose} size="lg" centered>
       <Modal.Header closeButton>
-        <Modal.Title>Color Generator</Modal.Title>
+        <Modal.Title>Random Color Generator</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p className="text-center m-0">Click for new color!</p>
+        <p className="text-center m-0">Click for new random color!</p>
         <div className="d-flex flex-column align-items-center justify-content-center px-3">
           <div
             onClick={generateRandomColor}
@@ -52,4 +52,4 @@ function ColorGenerator({ show, handleClose }) {
   );
 }
 
-export default ColorGenerator;
+export default RandomColorGenerator;
