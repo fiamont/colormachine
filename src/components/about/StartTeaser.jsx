@@ -10,7 +10,7 @@ function StartTeaser() {
       variant="light"
       to="/"
     >
-      <p className="text-center m-0 p-0">Start your journey here</p>
+      <p className="text-center m-0 p-0">Start the spark here</p>
     </Button>
   );
 }
