@@ -44,7 +44,8 @@
 .color-container {
   width: 100%;
   max-width: 400px;
-  height: 150px;
+  height: 200px;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 600px) {

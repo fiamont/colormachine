@@ -21,11 +21,10 @@ function ColorGenerator({ show, handleClose }) {
         <Modal.Title>Color Generator</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <Button variant="secondary" onClick={generateRandomColor}>
-          New color
-        </Button>
+        <p className="text-center m-0">Click for new color!</p>
         <div className="d-flex flex-column align-items-center justify-content-center px-3">
           <div
+            onClick={generateRandomColor}
             className="rounded color-container m-2"
             style={{ backgroundColor: color }}
           ></div>
