@@ -11,26 +11,32 @@ function AboutView() {
         <div className="d-flex flex-column gap-3">
           <div className="align-self-center p-3 m-0 w-100">
             <h4 className="pb-3 text-center">{aboutText.introduction}</h4>
-            <p className="p-0 pb-2 m-0 w-100 align-self-end text-center">
+            <p className="p-0 pb-2 m-0 w-100 align-self-center text-start">
               {aboutText.sections[0]}
             </p>
           </div>
           <div className="p-0 pb-2 m-0 w-75 align-self-end">
             <StartTeaser />
           </div>
-          <p className="p-3 pb-2 m-0 w-75 align-self-start text-center">
+          <p className="p-3 pb-2 m-0 w-75 align-self-start text-start">
             {aboutText.sections[1]}
           </p>
-          <p className="p-3 pb-3 m-0 w-75 align-self-end text-center">
+          <p className="p-3 pb-3 m-0 w-75 align-self-end text-end">
             {aboutText.sections[2]}
           </p>
-          <p className="p-3 pb-0 m-0 w-75 align-self-start text-center">
-            {aboutText.contact.text}
+          <p className="p-3 pb-0 m-0 w-75 align-self-start text-start">
+            {aboutText.tips.text}
           </p>
           <div className="p-0 pb-2 m-0 w-75 align-self-start">
             <ToContact text={aboutText} />
           </div>
-          <p className="p-3 pb-0 m-0 w-75 align-self-center text-center">
+          <p className="p-3 pb-0 m-0 w-75 align-self-end text-end">
+            {aboutText.contact.text}
+          </p>
+          <div className="p-0 pb-2 m-0 w-75 align-self-end">
+            <ToContact text={aboutText} />
+          </div>
+          <p className="p-3 pb-0 m-0 w-75 align-self-center text-start">
             {aboutText.portfolio.text}
           </p>
           <div className="p-0 m-0 w-75 align-self-center">
