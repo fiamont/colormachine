@@ -8,7 +8,7 @@ function ToPortfolio({ text }) {
       href={text.portfolio.uri}
       target="_blank"
       rel="noopener noreferrer"
-      variant="light"
+      variant="secondary"
     >
       <p className="text-center m-0 p-0">{text.portfolio.button}</p>
     </Button>

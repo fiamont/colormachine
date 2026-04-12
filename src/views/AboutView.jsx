@@ -1,5 +1,6 @@
 import ToContact from "../components/about/ToContact";
 import ToPortfolio from "../components/about/ToPortfolio";
+import ToTips from "../components/about/ToTips";
 import StartTeaser from "../components/about/StartTeaser";
 import aboutText from "./../texts/about.json";
 
@@ -28,7 +29,7 @@ function AboutView() {
             {aboutText.tips.text}
           </p>
           <div className="p-0 pb-2 m-0 w-75 align-self-start">
-            <ToContact text={aboutText} />
+            <ToTips text={aboutText} />
           </div>
           <p className="p-3 pb-0 m-0 w-75 align-self-end text-end">
             {aboutText.contact.text}
