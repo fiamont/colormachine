@@ -7,7 +7,7 @@ import aboutText from "./../texts/about.json";
 function AboutView() {
   return (
     <div className="d-flex flex-column gap-3 p-md-4 mb-4">
-      <h2 className="text-center about-title mb-0 pb-0">{aboutText.title}</h2>
+      <h2 className="text-center mb-0 pb-0">{aboutText.title}</h2>
       <div className="d-flex flex-column pt-0 p-4 p-lg-5 mt-0 mb-lg-5 mx-lg-5">
         <div className="d-flex flex-column gap-3">
           <div className="align-self-center p-3 m-0 w-100">

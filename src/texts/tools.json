@@ -1,0 +1,32 @@
+[
+  {
+    "id": "randomColor",
+    "label": "random color",
+    "explanation": "Generate a random color and copy color information to clipboard"
+  },
+  {
+    "id": "colorCategory",
+    "label": "color by category",
+    "explanation": "Choose between color categories and generate a random color in the category."
+  },
+  {
+    "id": "palette",
+    "label": "palette",
+    "explanation": "work in progress"
+  },
+  {
+    "id": "contrast",
+    "label": "contrast checker",
+    "explanation": "work in progress"
+  },
+  {
+    "id": "font",
+    "label": "font",
+    "explanation": "work in progress"
+  },
+  {
+    "id": "word",
+    "label": "inspirational words",
+    "explanation": "work in progress"
+  }
+]

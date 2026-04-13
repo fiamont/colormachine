@@ -2,39 +2,8 @@
   width: 100%;
 }
 
-.about-title {
-  color: var(--turquoise);
-}
-
 .form-border {
-  border: 3px var(--turquoise) solid;
-}
-
-.color-btn {
-  background-color: var(--orange);
-}
-
-.palette-btn {
-  background-color: var(--lavender);
-}
-
-.font-btn {
-  background-color: var(--yellow);
-}
-
-.word-btn {
-  background-color: var(--turquoise);
-}
-
-.generator-btn-text {
-  color: var(--grey-font);
-}
-
-.color-container {
-  width: 100%;
-  max-width: 400px;
-  height: 200px;
-  cursor: pointer;
+  border: 4px var(--yellow) solid;
 }
 
 .tools-btn,
