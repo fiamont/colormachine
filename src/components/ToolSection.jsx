@@ -8,8 +8,8 @@ import { useState } from "react";
 import { Button } from "react-bootstrap";
 import "./ToolSection.css";
 
-function GeneratorSection() {
-  const [activeGenerator, setActiveGenerator] = useState(false);
+function ToolSection() {
+  const [activeTool, setActiveTool] = useState(false);
 
   /* Objektlista med alla generatorer, varje objekt innehåller:
   - id: unikt namn för generatorn
@@ -56,26 +56,26 @@ function GeneratorSection() {
   ];
 
   return (
-    <section className="d-flex flex-column align-items-center pt-0 pb-2 px-4 gap-3">
+    <section className="d-flex flex-column w-75 align-items-center pt-0 pb-2 px-4 gap-3">
       <div className="row gt-0 gx-3 gy-3">
-        {/* Loopa igenom alla generators */}
+        {/* Loopa igenom alla verktyg */}
         {generators.map(({ id, label, Component, bgcolor }) => (
           <div key={id} className="col-12 col-md-6">
-            {/* Knapp som öppnar rätt generator */}
+            {/* Knapp som öppnar rätt verktyg */}
             <Button
               variant="light"
               size="lg"
-              onClick={() => setActiveGenerator(id)}
+              onClick={() => setActiveTool(id)}
               className={`w-100 h-100 ${bgcolor}`}
             >
               <h1 className="text-center fs-1 tools-btn-text">{label}</h1>
             </Button>
 
-            {/* Rendera generatorn om den är aktiv */}
-            {activeGenerator === id && (
+            {/* Rendera verktyget om den är aktiv */}
+            {activeTool === id && (
               <Component //en Modal
-                show={true} // visar generatorn
-                handleClose={() => setActiveGenerator(null)} // stänger generatorn
+                show={true} // visar Modal
+                handleClose={() => setActiveTool(null)} // stänger Modal
               />
             )}
           </div>
@@ -85,4 +85,4 @@ function GeneratorSection() {
   );
 }
 
-export default GeneratorSection;
+export default ToolSection;
