@@ -1,10 +1,18 @@
-import { Button } from "react-bootstrap";
+import { Button, Modal } from "react-bootstrap";
 
-function ContrastChecker() {
+function ContrastChecker({ show, handleClose }) {
   return (
-    <Button variant="secondary">
-      <h1>Compare color contrast</h1>
-    </Button>
+    <Modal show={show} onHide={handleClose} size="lg" centered>
+      <Modal.Header closeButton>
+        <Modal.Title>Contrast checker</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>Work in progress</Modal.Body>
+      <Modal.Footer>
+        <Button variant="secondary" onClick={handleClose}>
+          Close
+        </Button>
+      </Modal.Footer>
+    </Modal>
   );
 }
 

@@ -2,6 +2,7 @@ import RandomColorGenerator from "./tools/RandomColorGenerator";
 import PaletteGenerator from "./tools/PaletteGenerator";
 import FontGenerator from "./tools/FontGenerator";
 import InspirationGenerator from "./tools/InspirationGenerator";
+import ContrastChecker from "./tools/ContrastChecker";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
 
@@ -18,13 +19,19 @@ function GeneratorSection() {
       id: "color",
       label: "Generate random color",
       Component: RandomColorGenerator,
-      bgcolor: "color-btn",
+      bgcolor: "random-color-btn",
     },
     {
       id: "palette",
       label: "Generate palette",
       Component: PaletteGenerator,
       bgcolor: "palette-btn",
+    },
+    {
+      id: "contrast",
+      label: "Contrast checker",
+      Component: ContrastChecker,
+      bgcolor: "contrast-btn",
     },
     {
       id: "font",
