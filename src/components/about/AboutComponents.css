@@ -5,6 +5,7 @@
   letter-spacing: -3%;
   font-family: var(--commissioner-font);
   color: white;
+  border: 1px lightgray solid;
 }
 
 .start-teaser-container p {
@@ -19,13 +20,13 @@
 }
 
 .to-tips-container {
-  background-color: var(--turquoise);
-}
-
-.to-contact-container {
   background-color: var(--orange);
 }
 
-.start-teaser-container {
+.to-contact-container {
   background-color: var(--yellow);
+}
+
+.start-teaser-container {
+  background-color: var(--turquoise);
 }
