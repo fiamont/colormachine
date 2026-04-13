@@ -5,6 +5,7 @@ import InspirationGenerator from "./tools/InspirationGenerator";
 import ContrastChecker from "./tools/ContrastChecker";
 import { useState } from "react";
 import { Button } from "react-bootstrap";
+import "./ToolSection.css";
 
 function GeneratorSection() {
   const [activeGenerator, setActiveGenerator] = useState(false);
@@ -60,7 +61,7 @@ function GeneratorSection() {
               onClick={() => setActiveGenerator(id)}
               className={`w-100 h-100 ${bgcolor}`}
             >
-              <h1 className="text-center fs-1 generator-btn-text">{label}</h1>
+              <h1 className="text-center fs-1 tools-btn-text">{label}</h1>
             </Button>
 
             {/* Rendera generatorn om den är aktiv */}

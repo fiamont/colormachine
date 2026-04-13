@@ -1,0 +1,23 @@
+.random-color-btn {
+  background-color: var(--orange);
+}
+
+.palette-btn {
+  background-color: var(--lavender);
+}
+
+.contrast-btn {
+  background-color: var(--turquoise);
+}
+
+.font-btn {
+  background-color: var(--yellow);
+}
+
+.word-btn {
+  background-color: var(--turquoise);
+}
+
+.tools-btn-text {
+  color: var(--grey-font);
+}
