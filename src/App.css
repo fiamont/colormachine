@@ -37,9 +37,31 @@
   cursor: pointer;
 }
 
+.tools-btn,
+.tips-btn {
+  width: 200px;
+  font-family: var(--commissioner-font);
+  color: white;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.tools-btn {
+  background-color: var(--turquoise);
+}
+
+.tips-btn {
+  background-color: var(--orange);
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
+  }
+
+  .tips-btn,
+  .tools-btn {
+    width: 350px;
   }
 }
 
