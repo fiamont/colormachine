@@ -8,7 +8,7 @@ function StartView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <Hero />
-      <section className="w-100 p-3 p-md-5">
+      <section className="w-100 p-3 p-md-5 pb-0">
         <p className="ps-1 ps-md-5 fs-4">
           Are you in the process of starting a new design project?
         </p>
@@ -18,42 +18,36 @@ function StartView() {
         </p>
       </section>
 
-      <section className="p-2 px-md-4 pb-5 mb-4 d-flex flex-column w-100 align-items-center">
-        <p className="text-center">
-          Start your designing journey by choosing an option:
-        </p>
-        <div className="pt-0 px-md-4 pb-5 mb-4 d-flex flex-column flex-lg-row w-75">
-          <div className="pt-0 mt-0 ps-md-5 align-self-start">
-            <div className="pb-2">
-              <img src={arrowLeft} alt="arrow" />
-            </div>
-            <div className="p-2">
-              <Button
-                as={Link}
-                to="/tools"
-                variant="light"
-                className="tools-btn"
-                size="lg"
-              >
-                Tools
-              </Button>
-            </div>
+      <section className="pt-0 px-md-4 pb-5 mb-4 d-flex flex-column w-100 align-items-center">
+        <div className="d-flex flex-row align-items-center gap-2 gap-sm-4 px-2">
+          <img src={arrowLeft} alt="arrow" />
+          <p className="text-center">
+            Start your design journey by choosing an option:
+          </p>
+          <img src={arrowRight} alt="arrow" />
+        </div>
+        <div className="d-flex flex-column flex-md-row w-75 justify-content-center align-items-center">
+          <div className="p-2">
+            <Button
+              as={Link}
+              to="/tools"
+              variant="light"
+              className="tools-btn"
+              size="lg"
+            >
+              Tools
+            </Button>
           </div>
-          <div className="pe-md-5 pt-0 mt-0 d-flex flex-column align-self-end">
-            <div className="align-self-end pb-2">
-              <img src={arrowRight} alt="arrow" />
-            </div>
-            <div className="p-2">
-              <Button
-                as={Link}
-                to="/tips"
-                variant="light"
-                className="tips-btn"
-                size="lg"
-              >
-                Tips
-              </Button>
-            </div>
+          <div className="p-2">
+            <Button
+              as={Link}
+              to="/tips"
+              variant="light"
+              className="tips-btn"
+              size="lg"
+            >
+              Tips
+            </Button>
           </div>
         </div>
       </section>
