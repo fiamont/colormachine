@@ -10,22 +10,84 @@ import { useState } from "react";
 
 function ColorByCategoryGenerator({ show, handleClose }) {
   const [color, setColor] = useState("#eeb96f");
+  const [category, setCategory] = useState("Orange");
 
-  function generateColor() {
+  function generatePurple() {
     setColor(generateHexColor());
+    setCategory("Purple");
   }
+
+  function generateBlue() {
+    setColor(generateHexColor());
+    setCategory("Blue");
+  }
+  function generateGreen() {
+    setColor(generateHexColor());
+    setCategory("Green");
+  }
+  function generateYellow() {
+    setColor(generateHexColor());
+    setCategory("Yellow");
+  }
+  function generateOrange() {
+    setColor(generateHexColor());
+    setCategory("Orange");
+  }
+  function generateRed() {
+    setColor(generateHexColor());
+    setCategory("Red");
+  }
+
+  function generateLight() {
+    setColor(generateHexColor());
+    setCategory("Light");
+  }
+  function generateDark() {
+    setColor(generateHexColor());
+    setCategory("Dark");
+  }
+
   return (
     <Modal show={show} onHide={handleClose} size="lg" centered>
       <Modal.Header closeButton>
         <Modal.Title>Generate color by color category</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <p className="text-center">Category: ...</p>
-        <p className="text-center m-0">Click for new random color!</p>
+        <p className="text-center m-0 pb-0">
+          Click category button for new random color!
+        </p>
+        <div className="d-flex flex-wrap gap-1 justify-content-center align-items-center">
+          <Button variant="light" onClick={generatePurple}>
+            Purple
+          </Button>
+          <Button variant="light" onClick={generateBlue}>
+            Blue
+          </Button>
+          <Button variant="light" onClick={generateGreen}>
+            Green
+          </Button>
+          <Button variant="light" onClick={generateYellow}>
+            Yellow
+          </Button>
+          <Button variant="light" onClick={generateOrange}>
+            Orange
+          </Button>
+          <Button variant="light" onClick={generateRed}>
+            Red
+          </Button>
+          <Button variant="light" onClick={generateLight}>
+            Dark
+          </Button>
+          <Button variant="light" onClick={generateDark}>
+            Light
+          </Button>
+        </div>
+        <p className="text-center fw-bold mt-3 mb-0">
+          Choosen category: {category}
+        </p>
         <div className="d-flex flex-column align-items-center justify-content-center px-3">
           <div
-            onClick={generateColor}
-            className="rounded color-category-container m-2"
+            className="rounded color-category-container m-1"
             style={{ backgroundColor: color }}
           ></div>
           <div className="w-100 px-3 px-md-5 pt-2">
@@ -40,35 +102,6 @@ function ColorByCategoryGenerator({ show, handleClose }) {
               value={rgbToHsl(color)}
               onCopy={copyToClipboard}
             />
-          </div>
-          <div>
-            <p>Categories:</p>
-            <div>
-              <Button variant="light" size="sm">
-                <p>Purple</p>
-              </Button>
-              <Button variant="light">
-                <p>Blue</p>
-              </Button>
-              <Button variant="light">
-                <p>Green</p>
-              </Button>
-              <Button variant="light">
-                <p>Yellow</p>
-              </Button>
-              <Button variant="light">
-                <p>Orange</p>
-              </Button>
-              <Button variant="light">
-                <p>Red</p>
-              </Button>
-              <Button variant="light">
-                <p>Dark</p>
-              </Button>
-              <Button variant="light">
-                <p>Light</p>
-              </Button>
-            </div>
           </div>
         </div>
       </Modal.Body>
