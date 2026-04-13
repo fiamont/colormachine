@@ -1,51 +1,52 @@
 import { Modal, Button } from "react-bootstrap";
-/*import {
-  generateHexColor,
-  hexToRgb,
-  rgbToHsl,
+import {
+  generateRandomHsl,
+  hslToHex,
+  hslToRgb,
+  colorRanges,
   copyToClipboard,
 } from "../../utils/colorUtils";
 import ColorInfo from "./ColorInfo";
-import { useState } from "react";*/
+import { useState } from "react";
 
 function ColorByCategoryGenerator({ show, handleClose }) {
-  /*const [color, setColor] = useState("#eeb96f");
-  const [category, setCategory] = useState("Orange");
+  const [color, setColor] = useState(generateRandomHsl());
+  const [category, setCategory] = useState("Random");
 
   function generatePurple() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.purple));
     setCategory("Purple");
   }
 
   function generateBlue() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.blue));
     setCategory("Blue");
   }
   function generateGreen() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.green));
     setCategory("Green");
   }
   function generateYellow() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.yellow));
     setCategory("Yellow");
   }
   function generateOrange() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.orange));
     setCategory("Orange");
   }
   function generateRed() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.red));
     setCategory("Red");
   }
 
   function generateLight() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.light));
     setCategory("Light");
   }
   function generateDark() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl(colorRanges.dark));
     setCategory("Dark");
-  }*/
+  }
 
   return (
     <Modal show={show} onHide={handleClose} size="lg" centered>
@@ -56,7 +57,7 @@ function ColorByCategoryGenerator({ show, handleClose }) {
         <p className="text-center m-0 pb-0">
           Click category button for new random color!
         </p>
-        {/* <div className="d-flex flex-wrap gap-1 justify-content-center align-items-center">
+        <div className="d-flex flex-wrap gap-1 justify-content-center align-items-center">
           <Button variant="light" onClick={generatePurple}>
             Purple
           </Button>
@@ -88,22 +89,26 @@ function ColorByCategoryGenerator({ show, handleClose }) {
         <div className="d-flex flex-column align-items-center justify-content-center px-3">
           <div
             className="rounded color-category-container m-1"
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: hslToHex(color) }}
           ></div>
           <div className="w-100 px-3 px-md-5 pt-2">
-            <ColorInfo label="Hex" value={color} onCopy={copyToClipboard} />
+            <ColorInfo
+              label="Hex"
+              value={hslToHex(color)}
+              onCopy={copyToClipboard}
+            />
             <ColorInfo
               label="Rgb"
-              value={hexToRgb(color)}
+              value={hslToRgb(color)}
               onCopy={copyToClipboard}
             />
             <ColorInfo
               label="Hsl"
-              value={rgbToHsl(color)}
+              value={`hsl(${color.h}, ${color.s}%, ${color.l}%)`}
               onCopy={copyToClipboard}
             />
           </div>
-        </div> */}
+        </div>
       </Modal.Body>
       <Modal.Footer>
         <Button variant="dark" onClick={handleClose}>
