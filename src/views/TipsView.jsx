@@ -1,6 +1,6 @@
 function TipsView() {
   return (
-    <div>
+    <div className="d-flex flex-column justify-content-center align-items-center">
       <h1>Tips here</h1>
     </div>
   );
