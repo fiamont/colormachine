@@ -1,13 +1,16 @@
 .random-color-btn {
   background-color: var(--orange);
 }
+.color-color-btn {
+  background-color: var(--yellow);
+}
 
 .palette-btn {
   background-color: var(--lavender);
 }
 
 .contrast-btn {
-  background-color: var(--turquoise);
+  background-color: lightgray;
 }
 
 .font-btn {
@@ -20,4 +23,19 @@
 
 .tools-btn-text {
   color: var(--grey-font);
+}
+
+.color-container,
+.color-category-container {
+  width: 100%;
+  max-width: 400px;
+  cursor: pointer;
+}
+
+.color-container {
+  height: 200px;
+}
+
+.color-category-container {
+  height: 150px;
 }
