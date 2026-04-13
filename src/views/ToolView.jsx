@@ -10,7 +10,7 @@ function ToolView() {
       <h2 className="tools-heading">Tools</h2>
       <div className="d-flex flex-row align-items-center gap-2 gap-sm-4 p-2 pb-4">
         <img src={arrowLeft} alt="arrow" />
-        <p className="text-center">Start by choosing a tool</p>
+        <p className="text-center fs-4">Start by choosing a tool</p>
         <img src={arrowRight} alt="arrow" />
       </div>
       <ToolSection />
