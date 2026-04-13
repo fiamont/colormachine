@@ -52,6 +52,18 @@ export function hslToRgb({ h, s, l }) {
   return `rgb(${r}, ${g}, ${b})`;
 }
 
+export const colorRanges = {
+  purple: { hMin: 260, hMax: 290, sMin: 40, sMax: 100, lMin: 30, lMax: 70 },
+  blue: { hMin: 200, hMax: 240, sMin: 40, sMax: 100, lMin: 30, lMax: 70 },
+  green: { hMin: 100, hMax: 160, sMin: 40, sMax: 100, lMin: 30, lMax: 70 },
+  yellow: { hMin: 45, hMax: 65, sMin: 60, sMax: 100, lMin: 40, lMax: 80 },
+  orange: { hMin: 20, hMax: 40, sMin: 60, sMax: 100, lMin: 40, lMax: 70 },
+  red: { hMin: 0, hMax: 10, sMin: 60, sMax: 100, lMin: 40, lMax: 70 },
+
+  light: { hMin: 0, hMax: 360, sMin: 20, sMax: 60, lMin: 70, lMax: 95 },
+  dark: { hMin: 0, hMax: 360, sMin: 20, sMax: 80, lMin: 10, lMax: 30 },
+};
+
 export function copyToClipboard(value) {
   navigator.clipboard.writeText(value);
 }
