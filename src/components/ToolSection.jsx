@@ -19,39 +19,39 @@ function ToolSection() {
   const generators = [
     {
       id: "randomColor",
-      label: "Generate random color",
+      label: "random color",
       Component: RandomColorGenerator,
-      bgcolor: "random-color-btn",
+      explanation: "explanation",
     },
     {
       id: "colorColor",
-      label: "Generate color by category",
+      label: "color by category",
       Component: ColorByCategoryGenerator,
-      bgcolor: "color-color-btn",
+      explanation: "explanation",
     },
     {
       id: "palette",
-      label: "Generate palette",
+      label: "palette",
       Component: PaletteGenerator,
-      bgcolor: "palette-btn",
+      explanation: "explanation",
     },
     {
       id: "contrast",
-      label: "Contrast checker",
+      label: "contrast checker",
       Component: ContrastChecker,
-      bgcolor: "contrast-btn",
+      explanation: "explanation",
     },
     {
       id: "font",
-      label: "Generate font",
+      label: "font",
       Component: FontGenerator,
-      bgcolor: "font-btn",
+      explanation: "explanation",
     },
     {
       id: "word",
-      label: "Generate inspiration",
+      label: "inspirational words",
       Component: InspirationGenerator,
-      bgcolor: "word-btn",
+      explanation: "explanation",
     },
   ];
 
@@ -59,18 +59,20 @@ function ToolSection() {
     <section className="d-flex flex-column w-75 align-items-center pt-0 pb-2 px-4 gap-3">
       <div className="row gt-0 gx-3 gy-3">
         {/* Loopa igenom alla verktyg */}
-        {generators.map(({ id, label, Component, bgcolor }) => (
+        {generators.map(({ id, label, Component, explanation }) => (
           <div key={id} className="col-12 col-md-6">
             {/* Knapp som öppnar rätt verktyg */}
-            <Button
-              variant="light"
-              size="lg"
-              onClick={() => setActiveTool(id)}
-              className={`w-100 h-100 ${bgcolor}`}
-            >
-              <h1 className="text-center fs-1 tools-btn-text">{label}</h1>
-            </Button>
-
+            <div>
+              <Button
+                variant="light"
+                size="lg"
+                onClick={() => setActiveTool(id)}
+                className="w-100 h-100 tool-btn"
+              >
+                <h2 className="text-center fs-2 tools-btn-text">{label}</h2>
+              </Button>
+              <small className="text-muted">{explanation}</small>
+            </div>
             {/* Rendera verktyget om den är aktiv */}
             {activeTool === id && (
               <Component //en Modal

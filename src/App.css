@@ -2,10 +2,6 @@
   width: 100%;
 }
 
-.about-title {
-  color: var(--turquoise);
-}
-
 .form-border {
   border: 3px var(--turquoise) solid;
 }

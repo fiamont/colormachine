@@ -1,28 +1,6 @@
-.random-color-btn {
-  background-color: var(--orange);
-}
-.color-color-btn {
-  background-color: var(--yellow);
-}
-
-.palette-btn {
-  background-color: var(--lavender);
-}
-
-.contrast-btn {
-  background-color: lightgray;
-}
-
-.font-btn {
-  background-color: var(--yellow);
-}
-
-.word-btn {
+.tool-btn {
   background-color: var(--turquoise);
-}
-
-.tools-btn-text {
-  color: var(--grey-font);
+  color: white;
 }
 
 .color-container,
