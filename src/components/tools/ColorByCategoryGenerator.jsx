@@ -1,15 +1,15 @@
 import { Modal, Button } from "react-bootstrap";
-import {
+/*import {
   generateHexColor,
   hexToRgb,
   rgbToHsl,
   copyToClipboard,
 } from "../../utils/colorUtils";
 import ColorInfo from "./ColorInfo";
-import { useState } from "react";
+import { useState } from "react";*/
 
 function ColorByCategoryGenerator({ show, handleClose }) {
-  const [color, setColor] = useState("#eeb96f");
+  /*const [color, setColor] = useState("#eeb96f");
   const [category, setCategory] = useState("Orange");
 
   function generatePurple() {
@@ -45,7 +45,7 @@ function ColorByCategoryGenerator({ show, handleClose }) {
   function generateDark() {
     setColor(generateHexColor());
     setCategory("Dark");
-  }
+  }*/
 
   return (
     <Modal show={show} onHide={handleClose} size="lg" centered>
@@ -56,7 +56,7 @@ function ColorByCategoryGenerator({ show, handleClose }) {
         <p className="text-center m-0 pb-0">
           Click category button for new random color!
         </p>
-        <div className="d-flex flex-wrap gap-1 justify-content-center align-items-center">
+        {/* <div className="d-flex flex-wrap gap-1 justify-content-center align-items-center">
           <Button variant="light" onClick={generatePurple}>
             Purple
           </Button>
@@ -76,10 +76,10 @@ function ColorByCategoryGenerator({ show, handleClose }) {
             Red
           </Button>
           <Button variant="light" onClick={generateLight}>
-            Dark
+            Light
           </Button>
           <Button variant="light" onClick={generateDark}>
-            Light
+            Dark
           </Button>
         </div>
         <p className="text-center fw-bold mt-3 mb-0">
@@ -103,7 +103,7 @@ function ColorByCategoryGenerator({ show, handleClose }) {
               onCopy={copyToClipboard}
             />
           </div>
-        </div>
+        </div> */}
       </Modal.Body>
       <Modal.Footer>
         <Button variant="dark" onClick={handleClose}>

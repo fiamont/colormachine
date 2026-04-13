@@ -1,18 +1,18 @@
 import { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import {
-  generateHexColor,
-  hexToRgb,
-  rgbToHsl,
+  generateRandomHsl,
+  hslToHex,
+  hslToRgb,
   copyToClipboard,
 } from "../../utils/colorUtils";
 import ColorInfo from "./ColorInfo";
 
 function RandomColorGenerator({ show, handleClose }) {
-  const [color, setColor] = useState("#EED06F");
+  const [color, setColor] = useState(generateRandomHsl());
 
   function generateRandomColor() {
-    setColor(generateHexColor());
+    setColor(generateRandomHsl());
   }
 
   return (
@@ -26,18 +26,22 @@ function RandomColorGenerator({ show, handleClose }) {
           <div
             onClick={generateRandomColor}
             className="rounded color-container m-2"
-            style={{ backgroundColor: color }}
+            style={{ backgroundColor: hslToHex(color) }}
           ></div>
           <div className="w-100 px-3 px-md-5 pt-2">
-            <ColorInfo label="Hex" value={color} onCopy={copyToClipboard} />
+            <ColorInfo
+              label="Hex"
+              value={hslToHex(color)}
+              onCopy={copyToClipboard}
+            />
             <ColorInfo
               label="Rgb"
-              value={hexToRgb(color)}
+              value={hslToRgb(color)}
               onCopy={copyToClipboard}
             />
             <ColorInfo
               label="Hsl"
-              value={rgbToHsl(color)}
+              value={`hsl(${color.h}, ${color.s}%, ${color.l}%)`}
               onCopy={copyToClipboard}
             />
           </div>
