@@ -60,8 +60,8 @@ export const colorRanges = {
   orange: { hMin: 20, hMax: 40, sMin: 60, sMax: 100, lMin: 40, lMax: 70 },
   red: { hMin: 0, hMax: 10, sMin: 60, sMax: 100, lMin: 40, lMax: 70 },
 
-  light: { hMin: 0, hMax: 360, sMin: 20, sMax: 60, lMin: 70, lMax: 95 },
-  dark: { hMin: 0, hMax: 360, sMin: 20, sMax: 80, lMin: 10, lMax: 30 },
+  light: { hMin: 0, hMax: 360, sMin: 10, sMax: 50, lMin: 85, lMax: 98 },
+  dark: { hMin: 0, hMax: 360, sMin: 20, sMax: 80, lMin: 5, lMax: 20 },
 };
 
 export function copyToClipboard(value) {
