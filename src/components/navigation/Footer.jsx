@@ -21,7 +21,7 @@ function Footer() {
           <p className="p-0 m-0">Tips</p>
         </Link>
       </div>
-      <p>{"\u00A9"} 2026 Design Machine</p>
+      <p>{"\u00A9"} 2026 Color Machine</p>
     </div>
   );
 }

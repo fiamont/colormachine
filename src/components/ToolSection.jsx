@@ -1,7 +1,7 @@
 import RandomColorGenerator from "./tools/RandomColorGenerator";
 import PaletteGenerator from "./tools/PaletteGenerator";
-import FontGenerator from "./tools/FontGenerator";
-import InspirationGenerator from "./tools/InspirationGenerator";
+import ComplementaryColorGenerator from "./tools/ComplementaryColorGenerator";
+import ColorBlindnessSimulator from "./tools/ColorBlindnessSimulator";
 import ContrastChecker from "./tools/ContrastChecker";
 import ColorByCategoryGenerator from "./tools/ColorByCategoryGenerator";
 import { useState } from "react";
@@ -15,10 +15,10 @@ function ToolSection() {
   const componentMap = {
     randomColor: RandomColorGenerator,
     colorCategory: ColorByCategoryGenerator,
-    palette: PaletteGenerator,
+    complementary: ComplementaryColorGenerator,
     contrast: ContrastChecker,
-    font: FontGenerator,
-    word: InspirationGenerator,
+    palette: PaletteGenerator,
+    blind: ColorBlindnessSimulator,
   };
 
   return (

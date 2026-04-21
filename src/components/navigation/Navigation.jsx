@@ -8,7 +8,7 @@ function Navigation() {
       <Link to="/" className="navigation-brand">
         <div className="d-flex flex-row justify-content-center align-items-center">
           <img src={colorCogs} alt="Color cogs" className="pe-1 color-cogs" />
-          <h1 className="ps-1 text-center fs-3">Design machine</h1>
+          <h1 className="ps-1 text-center fs-3">Color machine</h1>
         </div>
       </Link>
     </div>

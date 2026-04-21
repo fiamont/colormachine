@@ -10,8 +10,8 @@
     "explanation": "Choose between color categories and generate a random color in the category."
   },
   {
-    "id": "palette",
-    "label": "palette",
+    "id": "complementary",
+    "label": "complementary color",
     "explanation": "work in progress"
   },
   {
@@ -20,13 +20,13 @@
     "explanation": "work in progress"
   },
   {
-    "id": "font",
-    "label": "font",
+    "id": "palette",
+    "label": "palette generator",
     "explanation": "work in progress"
   },
   {
-    "id": "word",
-    "label": "inspirational words",
+    "id": "blind",
+    "label": "color blindness simulator",
     "explanation": "work in progress"
   }
 ]

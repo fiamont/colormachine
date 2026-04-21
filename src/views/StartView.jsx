@@ -22,7 +22,7 @@ function StartView() {
         <div className="d-flex flex-row align-items-center gap-2 gap-sm-4 px-2">
           <img src={arrowLeft} alt="arrow" />
           <p className="text-center">
-            Start your design journey by choosing an option:
+            Start your colorful journey by choosing an option:
           </p>
           <img src={arrowRight} alt="arrow" />
         </div>
