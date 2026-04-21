@@ -1,7 +1,7 @@
 import RandomColorGenerator from "./tools/RandomColorGenerator";
 import PaletteGenerator from "./tools/PaletteGenerator";
 import ComplementaryColorGenerator from "./tools/ComplementaryColorGenerator";
-import InspirationGenerator from "./tools/InspirationGenerator";
+import ColorBlindnessSimulator from "./tools/ColorBlindnessSimulator";
 import ContrastChecker from "./tools/ContrastChecker";
 import ColorByCategoryGenerator from "./tools/ColorByCategoryGenerator";
 import { useState } from "react";
@@ -18,7 +18,7 @@ function ToolSection() {
     palette: PaletteGenerator,
     contrast: ContrastChecker,
     complementary: ComplementaryColorGenerator,
-    word: InspirationGenerator,
+    blind: ColorBlindnessSimulator,
   };
 
   return (
