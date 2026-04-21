@@ -1,0 +1,23 @@
+{
+  "title": "Tips and tricks",
+  "introduction": "Choosing colors is hard!",
+  "sections": [
+    "Some tips here",
+    "Some tricks here",
+    "And some tips and tricks here"
+  ],
+  "links": {
+    "text": "Need more tools? There are some useful and well known websites and tools you can use and combine with the tools here on this website",
+    "figma": "http://...",
+    "gimp": "http://...",
+    "canva": "http://..."
+  },
+  "tools": {
+    "text": "Ready to choose a color? Start by choosing ",
+    "button": "a tool"
+  },
+  "contact": {
+    "text": "Any questions? Or any troubles with the website?",
+    "button": "Kindly use the website's contact form"
+  }
+}
