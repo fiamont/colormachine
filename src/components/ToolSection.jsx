@@ -15,9 +15,9 @@ function ToolSection() {
   const componentMap = {
     randomColor: RandomColorGenerator,
     colorCategory: ColorByCategoryGenerator,
-    palette: PaletteGenerator,
-    contrast: ContrastChecker,
     complementary: ComplementaryColorGenerator,
+    contrast: ContrastChecker,
+    palette: PaletteGenerator,
     blind: ColorBlindnessSimulator,
   };
 

@@ -10,8 +10,8 @@
     "explanation": "Choose between color categories and generate a random color in the category."
   },
   {
-    "id": "palette",
-    "label": "palette generator",
+    "id": "complementary",
+    "label": "complementary color",
     "explanation": "work in progress"
   },
   {
@@ -20,8 +20,8 @@
     "explanation": "work in progress"
   },
   {
-    "id": "complementary",
-    "label": "complementary color",
+    "id": "palette",
+    "label": "palette generator",
     "explanation": "work in progress"
   },
   {
