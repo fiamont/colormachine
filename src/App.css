@@ -23,6 +23,11 @@
   background-color: var(--orange);
 }
 
+.tips-img {
+  width: 150px;
+  height: auto;
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
@@ -32,10 +37,18 @@
   .tools-btn {
     width: 350px;
   }
+
+  .tips-img {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 1100px) {
   .contact-form-container {
     width: 70%;
+  }
+
+  .tips-img {
+    width: 350px;
   }
 }
