@@ -9,10 +9,18 @@ function TipsView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
       <h1>{tips.title}</h1>
-      <p>{tips.introduction}</p>
-      <div>
-        <StartTeaser />
+      <h4 className="p-3">{tips.introduction}</h4>
+      <div className="d-flex flex-row justify-content-center align-items-center p-3 gap-2">
+        <p>
+          Learn about som color basics, get som practical tips and tricks, learn
+          about accessibility and some designer do's and don'ts.
+        </p>
+        <div className="d-flex flex-column">
+          <p>Do you want to try any of the tools first?</p>
+          <StartTeaser />
+        </div>
       </div>
+
       <div>
         <div className="d-flex flex-row justify-content-center align-items-center p-2 gap-2">
           <img
@@ -20,11 +28,17 @@ function TipsView() {
             alt="red blue yellow colors"
             className="shadow rounded tips-img"
           />
-          <p>{tips.sections[0]}</p>
+          <div>
+            <h4>{tips.basics.heading}</h4>
+            <p>{tips.basics.text}</p>
+          </div>
         </div>
 
         <div className="d-flex flex-row justify-content-center align-items-center p-2 gap-2">
-          <p>{tips.sections[1]}</p>
+          <div>
+            <h4>{tips.practical.heading}</h4>
+            <p>{tips.practical.text}</p>
+          </div>
           <img
             src={colorSplash}
             alt="Splashy colors"
@@ -37,7 +51,14 @@ function TipsView() {
             alt="rainbow colors in a corridor"
             className="shadow rounded tips-img"
           />
-          <p>{tips.sections[2]}</p>
+          <div>
+            <h4>{tips.accessibility.heading}</h4>
+            <p>{tips.accessibility.text}</p>
+          </div>
+        </div>
+        <div className="p-3">
+          <h4>{tips.designer.heading}</h4>
+          <p>{tips.designer.text}</p>
         </div>
       </div>
       <div className="p-4">
