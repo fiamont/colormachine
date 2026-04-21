@@ -23,9 +23,18 @@
   background-color: var(--orange);
 }
 
+.tips-heading {
+  font-weight: 800;
+}
+
 .tips-img {
-  width: 150px;
+  width: 160px;
   height: auto;
+}
+
+.tips-link {
+  text-decoration: none;
+  color: var(--orange);
 }
 
 @media screen and (min-width: 600px) {
@@ -39,7 +48,7 @@
   }
 
   .tips-img {
-    width: 300px;
+    width: 220px;
   }
 }
 
@@ -49,6 +58,6 @@
   }
 
   .tips-img {
-    width: 350px;
+    width: 300px;
   }
 }
