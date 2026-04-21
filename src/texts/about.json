@@ -1,10 +1,10 @@
 {
-  "title": "About Design machine",
-  "introduction": "This is a creative inspiration tool built for designers, creators, and anyone in need of fresh ideas.",
+  "title": "About Color machine",
+  "introduction": "Color Machine is a collection of simple, powerful tools designed to make working with color easier, faster, and more inspiring.",
   "sections": [
-    "Whether you're experiencing creative block, starting a new project, or simply looking for a spark of inspiration, Design Machine is here to help. The platform offers a collection of design-focused generators and tools made to support both hobby designers and professionals in their creative process.",
-    "From random color generators and palette creators to font inspiration, descriptive mood words, and contrast checking tools, every feature is designed to make brainstorming easier and more enjoyable.",
-    "The idea behind Design Machine is simple: creativity should feel accessible, playful, and inspiring. Sometimes all it takes is one unexpected color combination, one word, or one typeface to unlock a whole new concept."
+    "Whether you're a designer, developer, or just exploring creative ideas, Color Machine helps you generate colors, build palettes, and make confident design decisions without overthinking the process.",
+    "The platform includes a range of color-focused tools — from random color generators and category-based color inspiration to palette creation and contrast checking. Each tool is built to be intuitive, practical, and easy to use whenever you need a quick spark or a reliable solution.",
+    "Color plays a huge role in how we experience design. With Color Machine, the goal is to remove friction and make it easier to explore, experiment, and find combinations that work."
   ],
   "tips": {
     "text": "Do you need more help? Or want to learn more?",
@@ -15,7 +15,7 @@
     "button": "Kindly use the website's contact form"
   },
   "portfolio": {
-    "text": "This project was created by Sofia Montgomery, if you'd like to see more of my work, feel free to",
+    "text": "This project was created by Sofia Montgomery - a designer and developer with a passion for modern web design and user-friendly tools. It's built as both a creative resource and a reflection of an ongoing journey in design and development. If you'd like to see more of my work, feel free to",
     "uri": "https://sofiamontgomeryportfolio.vercel.app/",
     "button": "Explore the portfolio"
   }
