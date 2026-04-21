@@ -1,10 +1,10 @@
 import { Modal, Button } from "react-bootstrap";
 
-function FontGenerator({ show, handleClose }) {
+function ComplementaryColorGenerator({ show, handleClose }) {
   return (
     <Modal show={show} onHide={handleClose} size="lg" centered>
       <Modal.Header closeButton>
-        <Modal.Title>Font Generator</Modal.Title>
+        <Modal.Title>Complementary Color Generator</Modal.Title>
       </Modal.Header>
       <Modal.Body>Work in progress</Modal.Body>
       <Modal.Footer>
@@ -16,4 +16,4 @@ function FontGenerator({ show, handleClose }) {
   );
 }
 
-export default FontGenerator;
+export default ComplementaryColorGenerator;

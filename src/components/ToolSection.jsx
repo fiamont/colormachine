@@ -1,6 +1,6 @@
 import RandomColorGenerator from "./tools/RandomColorGenerator";
 import PaletteGenerator from "./tools/PaletteGenerator";
-import FontGenerator from "./tools/FontGenerator";
+import ComplementaryColorGenerator from "./tools/ComplementaryColorGenerator";
 import InspirationGenerator from "./tools/InspirationGenerator";
 import ContrastChecker from "./tools/ContrastChecker";
 import ColorByCategoryGenerator from "./tools/ColorByCategoryGenerator";
@@ -17,7 +17,7 @@ function ToolSection() {
     colorCategory: ColorByCategoryGenerator,
     palette: PaletteGenerator,
     contrast: ContrastChecker,
-    font: FontGenerator,
+    complementary: ComplementaryColorGenerator,
     word: InspirationGenerator,
   };
 
