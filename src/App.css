@@ -23,6 +23,20 @@
   background-color: var(--orange);
 }
 
+.tips-heading {
+  font-weight: 800;
+}
+
+.tips-img {
+  width: 250px;
+  height: auto;
+}
+
+.tips-link {
+  text-decoration: none;
+  color: var(--orange);
+}
+
 @media screen and (min-width: 600px) {
   .contact-form-container {
     width: 85%;
@@ -31,6 +45,10 @@
   .tips-btn,
   .tools-btn {
     width: 350px;
+  }
+
+  .tips-img {
+    width: 320px;
   }
 }
 

@@ -8,7 +8,7 @@ function ToTips({ text }) {
       as={Link}
       className="to-tips-container shadow p-4 w-100 rounded"
       variant="light"
-      to="/"
+      to="/tips"
     >
       <p className="text-center m-0 p-0">{text.tips.button}</p>
     </Button>
