@@ -2,31 +2,45 @@
   "title": "Tips and tricks",
   "introduction": "Choosing colors is hard! Finding the right color or combination can feel overwhelming. Here are a few simple tips and tricks to help you choose with confidence.",
   "basics": {
-    "heading": "Basics",
-    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?",
+    "heading": "Color basics",
+    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita similique suscipit earum repellendus dolores. Ullam perspiciatis aut enim?",
+    "underheadings": [
+      "Primary colors",
+      "Color codes",
+      "More color",
+      "Something other"
+    ],
     "text": [
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita similique suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?",
+      "Lorem amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem! Ullam aut enim?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, suscipit earum repellendus dolores, nobis autem! Ullam perspiciatis aut enim?",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique"
     ],
     "list": ["basics punkt 1", "punkt 2 basics", "punkt basics 3"]
   },
   "practical": {
     "heading": "Practical tips & tricks",
-    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!",
+    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi autem. Ullam perspiciatis aut? Lorem dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!",
+    "underheadings": [
+      "Practical one",
+      "Second practical",
+      "More practical stuff"
+    ],
     "text": [
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores. Ullam perspiciatis aut enim? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita similique suscipit earum repellendus dolores, nobis autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam perspiciatis aut enim!",
+      "Lorem ipsum dolor sit, amet consectetur elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique"
     ],
     "list": ["practical punkt 1", "practical punkt 2", "practical punkt 3"]
   },
   "accessibility": {
     "heading": "Accessibility",
-    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!",
+    "intro": "Lorem amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!",
+    "underheadings": ["Contrasts", "Color blindness", "Text and background"],
     "text": [
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!"
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi similique suscipit earum repellendus dolores, nobis autem!",
+      "Lorem ipsum dolor sit adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem!"
     ],
     "list": [
       "accessibility punkt 1",
@@ -36,11 +50,11 @@
   },
   "designer": {
     "heading": "Designer do's & don'ts",
-    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem",
+    "intro": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum. Ullam perspiciatis aut enim? Expedita similique suscipit earum repellendus dolores, nobis autem",
+    "underheadings": ["Designer do's", "Designer don'ts"],
     "text": [
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem",
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem. Ullam perspiciatis aut enim? Expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem"
+      "Lorem ipsum dolor sit, debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore suscipit earum dolores, nobis autem. Ullam perspiciatis aut enim? Expedita laudantium inventore similique suscipit earum repellendus dolores, nobis autem",
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio debitis rem ulpa saepe eligendi animi, expedita laudantium inventore labore similique suscipit earum dolores, nobis autem. Ullam aut enim? Expedita laudantium inventore labore similique suscipit earum repellendus dolores, nobis autem"
     ],
     "list": ["designer punkt 1", "designer punkt 2", "designer punkt 3"]
   },

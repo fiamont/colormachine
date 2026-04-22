@@ -28,7 +28,7 @@
 }
 
 .tips-img {
-  width: 160px;
+  width: 250px;
   height: auto;
 }
 
@@ -48,16 +48,12 @@
   }
 
   .tips-img {
-    width: 220px;
+    width: 320px;
   }
 }
 
 @media screen and (min-width: 1100px) {
   .contact-form-container {
     width: 70%;
-  }
-
-  .tips-img {
-    width: 300px;
   }
 }
