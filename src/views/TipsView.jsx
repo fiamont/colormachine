@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 function TipsView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center w-100 p-2 p-md-5">
-      <h1>{tips.title}</h1>
+      <h2>{tips.title}</h2>
       <h4 className="p-2 px-sm-4">{tips.introduction}</h4>
       <p className="px-2 px-sm-4 pb-3 align-self-start">
         Learn about som color{" "}
