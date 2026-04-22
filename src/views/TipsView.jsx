@@ -41,8 +41,7 @@ function TipsView() {
           heading={tips.basics.heading}
           intro={tips.basics.intro}
           list={tips.basics.list}
-          underheading={tips.basics.underheadings}
-          text={tips.basics.text}
+          sections={tips.basics.sections}
         />
 
         <TipsSection
@@ -52,8 +51,7 @@ function TipsView() {
           heading={tips.practical.heading}
           intro={tips.practical.intro}
           list={tips.practical.list}
-          underheading={tips.practical.underheadings}
-          text={tips.practical.text}
+          sections={tips.practical.sections}
         />
 
         <TipsSection
@@ -64,8 +62,7 @@ function TipsView() {
           heading={tips.accessibility.heading}
           intro={tips.accessibility.intro}
           list={tips.accessibility.list}
-          underheading={tips.accessibility.underheadings}
-          text={tips.accessibility.text}
+          sections={tips.accessibility.sections}
         />
 
         <TipsSection
@@ -75,8 +72,7 @@ function TipsView() {
           heading={tips.designer.heading}
           intro={tips.designer.intro}
           list={tips.designer.list}
-          underheading={tips.designer.underheadings}
-          text={tips.designer.text}
+          sections={tips.designer.sections}
         />
         <section className="d-flex flex-column justify-content-center align-items-center p-3">
           <p>{tips.contact.text}</p>

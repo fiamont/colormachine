@@ -7,21 +7,24 @@ function TipsSection({
   alt,
   heading,
   intro,
-  list,
-  underheading,
-  text,
+  list = [],
+  sections = [],
 }) {
   return (
     <section className="d-flex flex-column bg-light p-4 p-lg-5 my-2 rounded gap-2">
       <div className="d-flex flex-column flex-md-row">
         <div>
-          <h4 className="text-center tips-heading p-2">{heading}</h4>
+          <h4 className="text-center tips-heading p-2" id={id}>
+            {heading}
+          </h4>
           <p>{intro}</p>
           <div>
-            <h5 className="pb-0">{underheading[0]}</h5>
-            <p className="pt-0 pb-2">{text[0]}</p>
-            <h5 className="pb-0">{underheading[1]}</h5>
-            <p className="pt-0 pb-2">{text[1]}</p>
+            {sections.map((section, index) => (
+              <div key={index}>
+                <h5 className="mb-1">{section.underheading}</h5>
+                <p className="mb-3">{section.text}</p>
+              </div>
+            ))}
           </div>
         </div>
         <div className="d-flex flex-column justify-content-center align-items-center gap-4">
@@ -29,9 +32,11 @@ function TipsSection({
             <img src={img} alt={alt} className="shadow rounded tips-img m-2" />
           </div>
           <ul className="d-flex flex-column justify-content-center align-items-center py-2">
-            <li className="mx-3">{list[0]}</li>
-            <li className="mx-3">{list[1]}</li>
-            <li className="mx-3">{list[2]}</li>
+            {list.map((item, index) => (
+              <li key={index} className="mx-3">
+                {item}
+              </li>
+            ))}
           </ul>
         </div>
       </div>
