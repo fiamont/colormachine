@@ -18,20 +18,19 @@ function TipsView() {
           basics
         </a>
         , get some{" "}
-        <a className="tips-link" href="#practical">
-          practical tips and tricks
-        </a>
-        , learn about{" "}
+        <a className="tips-link" href="#designer">
+          designer do's and don'ts
+        </a>{" "}
+        tips, learn about{" "}
         <a className="tips-link" href="#accessibility">
           accessibility
         </a>{" "}
-        and some{" "}
-        <a className="tips-link" href="#designer">
-          designer do's and don'ts
+        and get some{" "}
+        <a className="tips-link" href="#practical">
+          practical tips and tricks
         </a>
         .
       </p>
-
       <div className="d-flex flex-column gap-3 w-100 px-sm-4">
         <TipsSection
           id="basics"
@@ -43,17 +42,15 @@ function TipsView() {
           list={tips.basics.list}
           sections={tips.basics.sections}
         />
-
         <TipsSection
-          id="practical"
-          img={colors}
-          alt="Red blue yellow colors"
-          heading={tips.practical.heading}
-          intro={tips.practical.intro}
-          list={tips.practical.list}
-          sections={tips.practical.sections}
+          id="designer"
+          img={messy}
+          alt="Messy colors"
+          heading={tips.designer.heading}
+          intro={tips.designer.intro}
+          list={tips.designer.list}
+          sections={tips.designer.sections}
         />
-
         <TipsSection
           id="accessibility"
           reverse
@@ -64,15 +61,14 @@ function TipsView() {
           list={tips.accessibility.list}
           sections={tips.accessibility.sections}
         />
-
         <TipsSection
-          id="designer"
-          img={messy}
-          alt="Messy colors"
-          heading={tips.designer.heading}
-          intro={tips.designer.intro}
-          list={tips.designer.list}
-          sections={tips.designer.sections}
+          id="practical"
+          img={colors}
+          alt="Red blue yellow colors"
+          heading={tips.practical.heading}
+          intro={tips.practical.intro}
+          list={tips.practical.list}
+          sections={tips.practical.sections}
         />
         <section className="d-flex flex-column justify-content-center align-items-center p-3">
           <p>{tips.contact.text}</p>
