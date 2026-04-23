@@ -2,8 +2,8 @@
   width: 100%;
 }
 
-.form-border {
-  border: 4px var(--yellow) solid;
+.form-background {
+  background-color: var(--yellow);
 }
 
 .tools-btn,
