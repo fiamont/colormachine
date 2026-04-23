@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import arrowLeft from "./../assets/ArrowLeft.png";
 import arrowRight from "./../assets/ArrowRight.png";
+import ToTopArrow from "../components/ToTopArrow";
 
 function ToolView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">
+      <ToTopArrow />
       <h2 className="tools-heading">Tools</h2>
       <div className="d-flex flex-row align-items-center gap-2 gap-sm-4 p-2 pb-4">
         <img src={arrowLeft} alt="arrow" />
