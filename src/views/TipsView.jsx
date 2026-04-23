@@ -6,10 +6,12 @@ import colorCorridor from "./../assets/colorcorridor.jpg";
 import messy from "./../assets/messy.jpg";
 import TipsSection from "../components/TipsSection";
 import { Link } from "react-router-dom";
+import ToTopArrow from "../components/ToTopArrow";
 
 function TipsView() {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center w-100 p-2 p-lg-5">
+      <ToTopArrow />
       <h2>{tips.title}</h2>
       <h4 className="p-2 px-sm-4">{tips.introduction}</h4>
       <p className="px-2 px-sm-4 pb-3 align-self-start">
