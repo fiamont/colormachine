@@ -1,0 +1,9 @@
+.to-top-btn {
+  background: none;
+  border: none;
+
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}

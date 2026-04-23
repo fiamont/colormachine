@@ -3,10 +3,12 @@ import ToPortfolio from "../components/about/ToPortfolio";
 import ToTips from "../components/about/ToTips";
 import StartTeaser from "../components/about/StartTeaser";
 import aboutText from "./../texts/about.json";
+import ToTopArrow from "../components/ToTopArrow";
 
 function AboutView() {
   return (
     <div className="d-flex flex-column gap-3 p-md-4 mb-4">
+      <ToTopArrow />
       <h2 className="text-center mb-0 pb-0">{aboutText.title}</h2>
       <div className="d-flex flex-column pt-0 p-4 p-lg-5 mt-0 mb-lg-5 mx-lg-5">
         <div className="d-flex flex-column gap-3">
